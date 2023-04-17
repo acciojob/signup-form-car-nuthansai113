@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -24,7 +23,9 @@
       <input type="radio" name="gender" id="gender_f">Female
     </section><br>
     <section>
-      <select name="cars" id="cars">
+      <label for="Cars">Cars</label>
+       <select name="cars" id="cars">
+     
         <option value="">Please choose an option</option>
         <option value="BMW">BMW</option>
         <option value="AUDI">Audi</option>
@@ -38,7 +39,7 @@
     </section><br>
     <section>
       <label for="DOB">DOB</label>
-      <input type="datetime-local" id="dob" required>
+      <input type="date" id="dob" required>
     </section><br>
     <section>
       <label for="tel">Phone number</label>
@@ -48,6 +49,13 @@
       <label for="pwd">Password</label>
       <input type="password" id="password" placeholder="Password" required>
     </section><br>
+
+    <section>
+      <label for="checkbox">checkbox</label>
+      <input type="checkbox">
+      <label for="Checkbox">I agree to the TOS.</label>
+    </section>
+
 
     <section>
       <label for="button"><button>submit</button></label>
